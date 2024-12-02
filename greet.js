@@ -1,3 +1,4 @@
-export function greet(name) {
-  return `Hello ${name}!`;
+export function greet(name = "Stranger") {
+
+  return `Hello ${name==="Roland" ? "Coach" : name}!`;
 }
